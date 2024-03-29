@@ -45,9 +45,8 @@ body {
   font-family: "Noto sans mono", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  max-width: 1000px;
-  padding: 2em;
-  margin: auto;
+  max-width: 2000px;
+  margin-top: -33px;
 }
 
 h1 {
@@ -60,10 +59,12 @@ h2 {
 }
 
 .header {
-  display: flex;
-  gap: 4em;
-  padding: 2em 0;
-  border-bottom: 2px solid black;
+  height: 100%;
+  margin: 25px 0;
+  padding: 20px;
+  overflow-y: auto;
+  position: fixed;
+  width: 25%;
 }
 
 .header img {
@@ -80,15 +81,25 @@ h2 {
 }
 
 .grid {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin-left: 30%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, 700px);
   gap: 1em;
   margin-top: 2em;
+  background-color: rgb(196, 196, 205)
+}
+
+.assignment {
+  margin: 20px;
 }
 
 .assignment a {
   color: #000;
   text-decoration: none;
+
 }
 
 .assignment a:hover {
@@ -102,4 +113,36 @@ h2 {
 
 .assignment p {
   margin-top: 0.5em;
+
 }
+
+.sidenav img {
+  width: 200px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
