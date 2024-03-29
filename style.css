@@ -1,3 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Noto sans mono", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  max-width: 2000px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.header {
+  border: 1px solid black;
+  height: 100%;
+  overflow-y: auto;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-right: 40px;
+  position: fixed;
+  width: 500px;
+}
+
+.header img {
+  width: 300px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: left center;
+  padding-bottom: 30px;
+  border: 1px dotted black;
+}
+
+.header .header-intro {
+  border: 1px solid black;
+}
+
+.main {
+  background-color: #fffbee;
+  height: 100%;
+  margin-left: 500px;
+  padding: 40px;
+  position: fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.assignment {
+  border: 1px solid blue;
+  display: flex;
+}
+
+.assignment a {
+  color: #110023;
+  text-decoration: none;
+  border: 1px solid purple;
+  width: 800px;
+}
+
+.assignment a:hover {
+  color: rgb(125, 62, 142);
+}
+
+.assignment img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.assignment .assignment-text {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  align-items: center;
+}
+
 .noto-sans mono-regular {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 400;
@@ -21,101 +116,4 @@
   font-weight: 1000;
   font-style: normal;
   font-size: x-large;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-body {
-  font-family: "Noto sans mono", sans-serif;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  max-width: 2000px;
-  margin-top: -33px;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 1em;
-}
-
-h2 {
-  font-weight: 700;
-}
-
-.header {
-  border: 1px solid black;
-  height: 100%;
-  margin: 25px 0;
-  padding: 60px;
-  overflow-y: auto;
-  position: fixed;
-  width: 500px;
-}
-
-.header img {
-  width: 300px;
-  aspect-ratio: 1;
-  object-fit: contain;
-  object-position: left center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.main {
-  background-color: #fffbee;
-  height: 100%;
-  margin-left: 500px;
-  margin-top: 2em;
-  padding-left: 40px;
-  position: fixed;
-  overflow-y:scroll;
-  overflow-x:hidden;
-}
-
-.assignment {
-  border: 1px solid blue;
-  display: flex;
-  margin: 20px;
-}
-
-.assignment a {
-  color: #110023;
-  text-decoration: none;
-  border: 1px solid purple;
-  padding: 20px;
-  width: 1000px;
-}
-
-.assignment a:hover {
-  color: rgb(125, 62, 142);
-}
-
-.assignment img {
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.assignment .assignment-text {
-  border: 1px solid red;
-  display: flex;
-  justify-content: center;
-  padding-left: 20px;
-  align-items: center;
 }
