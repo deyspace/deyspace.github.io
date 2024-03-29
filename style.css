@@ -66,7 +66,7 @@ h2 {
   padding: 60px;
   overflow-y: auto;
   position: fixed;
-  width: 25%;
+  width: 500px;
 }
 
 .header img {
@@ -81,7 +81,7 @@ h2 {
 .main {
   background-color: #fffbee;
   height: 100%;
-  margin-left: 30%;
+  margin-left: 500px;
   margin-top: 2em;
   padding-left: 40px;
   position: fixed;
