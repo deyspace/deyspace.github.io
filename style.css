@@ -20,6 +20,7 @@
   font-family: "Noto Sans Mono", monospace;
   font-weight: 700;
   font-style: normal;
+  font-size: larger;
 }
 
 *,
@@ -50,8 +51,8 @@ body {
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1em;
 }
 
 h2 {
@@ -61,16 +62,19 @@ h2 {
 .header {
   height: 100%;
   margin: 25px 0;
-  padding: 20px;
+  padding: 60px;
   overflow-y: auto;
   position: fixed;
   width: 25%;
 }
 
 .header img {
-  width: 200px;
+  width: 300px;
   aspect-ratio: 1;
   object-fit: contain;
+  object-position: left center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .content {
@@ -86,24 +90,24 @@ h2 {
   position: fixed;
   margin-left: 30%;
   display: grid;
-  grid-template-columns: repeat(2, 700px);
-  gap: 1em;
+  grid-template-columns: repeat(2, 600px);
+  gap: 0em;
   margin-top: 2em;
-  background-color: rgb(196, 196, 205)
+  background-color: #fffbee
 }
 
 .assignment {
-  margin: 20px;
+  margin: 75px;
 }
 
 .assignment a {
-  color: #000;
+  color: #110023;
   text-decoration: none;
 
 }
 
 .assignment a:hover {
-  color: #f06;
+  color: rgb(125, 62, 142);
 }
 
 .assignment img {
