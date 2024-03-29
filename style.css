@@ -18,9 +18,9 @@
 
 .noto-sans mono-bold {
   font-family: "Noto Sans Mono", monospace;
-  font-weight: 700;
+  font-weight: 1000;
   font-style: normal;
-  font-size: larger;
+  font-size: x-large;
 }
 
 *,
@@ -60,6 +60,7 @@ h2 {
 }
 
 .header {
+  border: 1px solid black;
   height: 100%;
   margin: 25px 0;
   padding: 60px;
@@ -77,33 +78,29 @@ h2 {
   padding-bottom: 30px;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  margin: 2em 0;
-}
-
-.grid {
-  width: 100%;
+.main {
+  background-color: #fffbee;
   height: 100%;
-  position: fixed;
   margin-left: 30%;
-  display: grid;
-  grid-template-columns: repeat(2, 600px);
-  gap: 0em;
   margin-top: 2em;
-  background-color: #fffbee
+  padding-left: 40px;
+  position: fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
 }
 
 .assignment {
-  margin: 75px;
+  border: 1px solid blue;
+  display: flex;
+  margin: 20px;
 }
 
 .assignment a {
   color: #110023;
   text-decoration: none;
-
+  border: 1px solid purple;
+  padding: 20px;
+  width: 1000px;
 }
 
 .assignment a:hover {
@@ -115,7 +112,10 @@ h2 {
   object-fit: cover;
 }
 
-.assignment p {
-  margin-top: 0.5em;
-
+.assignment .assignment-text {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  align-items: center;
 }
