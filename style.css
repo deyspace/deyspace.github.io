@@ -64,7 +64,7 @@ h2 {
 }
 
 .assignment {
-  border: 1px solid blue;
+  border: 1px solid orange;
   display: flex;
   padding: 15px 0;
 }
@@ -72,12 +72,6 @@ h2 {
 .assignment-info .link {
   text-decoration: none;
   color: #110023;
-}
-
-.assignment img {
-  border: 1px solid purple;
-  object-fit: fill;
-  width: 300px;
 }
 
 .assignment a:hover {
@@ -88,8 +82,10 @@ h2 {
 }
 
 .assignment img {
+  width: 600px;
+  border: 1px dotted green;
   aspect-ratio: 1;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .assignment .assignment-info {
