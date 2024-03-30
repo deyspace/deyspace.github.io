@@ -31,12 +31,11 @@ h2 {
 }
 
 .header {
-  border: 1px solid black;
   height: 100%;
   overflow-y: auto;
   padding-left: 30px;
   padding-top: 40px;
-  padding-right: 40px;
+  padding-right: 80px;
   position: fixed;
   width: 500px;
 }
@@ -67,6 +66,7 @@ h2 {
 .assignment {
   border: 1px solid blue;
   display: flex;
+  padding: 10px 0;
 }
 
 .assignment a {
@@ -88,9 +88,9 @@ h2 {
 .assignment .assignment-text {
   border: 1px solid red;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-left: 20px;
-  align-items: center;
+  padding: 0 20px;
 }
 
 .noto-sans mono-regular {
