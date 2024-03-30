@@ -54,7 +54,7 @@ h2 {
 }
 
 .main {
-  background-color: #fffbee;
+  background-color: #f4f0e3;
   height: 100%;
   margin-left: 500px;
   padding: 40px;
@@ -69,15 +69,21 @@ h2 {
   padding: 10px 0;
 }
 
-.assignment a {
-  color: #110023;
+.assignment-info .link {
   text-decoration: none;
+  color: #110023;
+}
+
+.assignment img {
   border: 1px solid purple;
-  width: 800px;
+  width: 300px;
 }
 
 .assignment a:hover {
   color: rgb(125, 62, 142);
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2px;
 }
 
 .assignment img {
@@ -85,12 +91,16 @@ h2 {
   object-fit: cover;
 }
 
-.assignment .assignment-text {
+.assignment .assignment-info {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
+}
+
+.assignment .assignment-text {
+  border: 1px solid purple;
 }
 
 .noto-sans mono-regular {
