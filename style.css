@@ -82,10 +82,11 @@ h2 {
 }
 
 .assignment img {
-  width: 600px;
+  width: 300px;
   border: 1px dotted green;
-  aspect-ratio: 1;
+  aspect-ratio: 16:9;
   object-fit: contain;
+  object-position: left top;
 }
 
 .assignment .assignment-info {
