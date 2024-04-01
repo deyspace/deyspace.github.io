@@ -56,29 +56,27 @@ h2 {
   font-size: x-large;
 }
 
-
-.project 
-
-
-
 h2, ul, li, body {
 padding: 0;
 margin: 0;
 }
 
-div {
-background-color: #FEFEFE;
-justify-content: left;
-align-items: left;
-display: flex;
-padding: 30px
+body {
+  padding: 50px;
+}
+
+.project-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .breadcrumb > h2, ul {
 display: inline-flex;
 list-style: none;
-font-size: initial;
+font-size: large;
+margin: 10px 50px;
 color: #270215;
+border: 1px solid black;
 }
 
 .breadcrumb ul > li + li {
@@ -115,3 +113,30 @@ font-weight: bold;
 color: #2C363F;
 }
 
+.project {
+  border: 1px solid purple;
+}
+
+.project .project-header {
+  margin: 15px 50px;
+  border: 1px solid red;
+}
+
+.project .project-body {
+  margin: 50px;
+  border: 1px solid blue;
+}
+
+.project img {
+  width: 400px;
+  border: 1px dotted green;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.project-img-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}

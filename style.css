@@ -33,7 +33,7 @@ h2 {
 .header {
   height: 100%;
   overflow-y: auto;
-  padding-left: 30px;
+  padding-left: 80px;
   padding-top: 40px;
   padding-right: 80px;
   position: fixed;
@@ -46,25 +46,25 @@ h2 {
   object-fit: contain;
   object-position: left center;
   padding-bottom: 30px;
-  border: 1px dotted black;
 }
 
 .header .header-intro {
-  border: 1px solid black;
 }
 
 .main {
   background-color: #f4f0e3;
   height: 100%;
   margin-left: 500px;
-  padding: 40px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
   position: fixed;
   overflow-y:scroll;
   overflow-x:hidden;
 }
 
 .assignment {
-  border: 1px solid orange;
   display: flex;
   padding: 15px 0;
 }
@@ -82,22 +82,20 @@ h2 {
 }
 
 .assignment img {
-  width: 300px;
-  border: 1px dotted green;
+  width: 350px;
   aspect-ratio: 16:9;
   object-fit: contain;
   object-position: left top;
 }
 
 .assignment .assignment-info {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   padding: 0 20px;
 }
 
 .assignment .assignment-text {
-  border: 1px solid purple;
+  padding: 10px 0;
 }
 
 .noto-sans mono-regular {
