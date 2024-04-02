@@ -65,18 +65,15 @@ body {
   padding: 50px;
 }
 
-.project-content {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 
 .breadcrumb > h2, ul {
 display: inline-flex;
 list-style: none;
 font-size: large;
 margin: 10px 50px;
+padding-bottom: 100px;
 color: #270215;
-border: 1px solid black;
 }
 
 .breadcrumb ul > li + li {
@@ -87,20 +84,20 @@ margin-left: 5px;
 text-decoration: none;
 position: relative;
 font-weight: 400;
-color: gray;
+color: #9f9f9f;
 z-index: 0;
 }
 
 .breadcrumb ul > li a[href]:hover,
 .breadcrumb ul > li a[href]:focus {
-color: #C41C87;
+color:rgb(125, 62, 142);
 outline: none;
 }
 
 .breadcrumb ul > li a[href]:hover:before,
 .breadcrumb ul > li a[href]:focus:before{
 transform: skew(-3deg) rotate(-1deg);
-border-bottom: 13px solid #D6DBD2;
+border-bottom: 13px solid #e6e6e6;
 left: -3px; right: 2px;
 position: absolute;
 bottom: -1px;
@@ -110,26 +107,28 @@ z-index: -1;
 
 .breadcrumb ul > li a:not([href]) {
 font-weight: bold;
-color: #2C363F;
+color: #332f88;
 }
 
 .project {
-  border: 1px solid purple;
+  
 }
 
 .project .project-header {
   margin: 15px 50px;
-  border: 1px solid red;
+}
+
+.project-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .project .project-body {
   margin: 50px;
-  border: 1px solid blue;
 }
 
 .project img {
   width: 400px;
-  border: 1px dotted green;
   object-fit: contain;
   object-position: left top;
 }
