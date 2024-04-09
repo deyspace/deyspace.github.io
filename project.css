@@ -71,7 +71,7 @@ body {
 .breadcrumb > h2, ul {
 display: inline-flex;
 list-style: none;
-font-size: large;
+font-size: medium;
 margin: 10px 50px;
 padding-bottom: 100px;
 color: #270215;
@@ -91,24 +91,24 @@ z-index: 0;
 
 .breadcrumb ul > li a[href]:hover,
 .breadcrumb ul > li a[href]:focus {
-color:rgb(125, 62, 142);
+color:#270215;
 outline: none;
 }
 
 .breadcrumb ul > li a[href]:hover:before,
 .breadcrumb ul > li a[href]:focus:before{
-transform: skew(-3deg) rotate(-1deg);
-border-bottom: 13px solid #e6e6e6;
-left: -3px; right: 2px;
+
+border-bottom: 3px solid #40007439;
+left: -1px; right: 1px;
 position: absolute;
-bottom: -1px;
+bottom: -2px;
 content: "";
 z-index: -1;
 }
 
 .breadcrumb ul > li a:not([href]) {
 font-weight: bold;
-color: #332f88;
+color:#6b00b7;
 }
 
 .project {
