@@ -34,12 +34,18 @@
   <div class="project-body">
     <mono-semibold>
       <div class="project-content">
-        + rhino/grasshopper source file: <a href="drop link here" 
-        class="link">Deyi's parametric model
+        + <a href="https://drive.google.com/file/d/1_1R8EmfFYMItea7zfZEo7mDQtYt0InnN/view?usp=drive_link" 
+        class="link">Lemon holder rhino model
         </a> 
-        <br>+ cut files: 
-        <br>+ deets
-        <br>+ thanks to classmates: x,y,z
+        <br>+ <a href="https://drive.google.com/file/d/1JufPp2ceR4cqQLBJIpULvJU3z8LOp2t3/view?usp=drive_link" 
+        class="link">Lemon holder grasshopper
+        </a> 
+        <br>+ <a href="https://drive.google.com/file/d/1wMC9J5biIQfGFJr6-ARZbh3UH2mv0OvA/view?usp=drive_link" 
+        class="link">Lemon holder print pieces in Illustrator</a> 
+        <br>+ laser cutter settings: 20S 50P 50F - SUCCESS! 
+        <br>+ cardboard thickness = 3.6, cut thickness = 3.4
+        <br>+ thanks to classmates: Tyler for the tutorials!!, 
+        Rene for the tips troubleshooting with finding grasshopper files, and Sky for helping me out with Rhino to Illustrator
         <br>+ write up of process below :)
       </div>
       <br>
@@ -50,7 +56,7 @@
         <br><br>
         1/ 30 parts to be laser cut that can be clipped together
         <br>
-        2/ least 1 part should enable you to connect 
+        2/ at least 1 part should enable you to connect 
         a piece to another without use of glue or fasteners
         <br>
         3/ include notes in the grasshopper definition so it's 
@@ -67,103 +73,101 @@
     </mono-semibold> 
       <mono-regular>
           <div class="project-content">
-            abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+            I used the following tutorials:<br>
+            / <a href="https://vimeo.com/35707093">3D puzzles with grasshopper (from 2012!)</a><br>
+            / <a href="https://youtu.be/lJ3XkC-cJzI?si=TSvD6IISTV5_R_1k" 
+             class="link">6 commands for laser cutting scale models with rhino 3D</a><br>
+            / <a href="https://www.youtube.com/watch?v=XwRNw9BY2BI" 
+             class="link">extrude command - rhino basics</a> 
+            <br><br>I initally wanted to make something practical. Like a fruitbowl that was peanut shaped (like the wood one below).
+            But the formula for the grasshopper tutorial kept slicing my baked slats in the wrong areas.
+            I concluded that my shape was too award for the cutting technique I was using, so I decided to make a "simpler" shape.
+            <br><br>
+            I then tried to make a ramp for my daughter to roll her cars on. 
+            The shape was easy to make because I had spent 10s of hours making various vases to test against the grasshopper formula, 
+            but I couldn't get it to work. But again, the formula didn't work for some reason....
             <br><br>
             <div class="project-content project-img-row">
-              <img src="/assets/tbd-project.png" />
-              <img src="/assets/tbd-project.png" />
-              <img src="/assets/tbd-project.png" />
+              <img src="a2/inspo.png" />
+              <img src="a2/fruit-bowl-fails.png" />
+              <img src="a2/ramp-fail.png" />
             </div>
-            <br>Inspo from: <a href="paste link here" class="link">
-              <mono-regular>abcdefghijklmnopqrstuvwxyz</mono-regular>
-            </a>
-            <br><br>abcdefghijklmnopqrstuvwxyz
+            <br><a href="https://www.designboom.com/readers/fruit-bowl-128-by-semdesign/" 
+            class="link">Wood fruitbowl inspo
+            </a> 
+            <br><br>After hours of troubleshooting, I learned that the grasshopper formula:
+            <br> - only worked with solid shapes
+            <br> - if I wanted to make to 'shell closed polysurface', the equation only worked if the shell was >50% of the shape 
+            
       </div>
       <div class="project-content">
-       
-  
         <br><br>
 
-        <mono-semibold>
-          <div class="project-content">
-            <br>Prototyping<br><br>
-          </div>
-        </mono-semibold>
-        abcdefghijklmnopqrstuvwxyz
-       <br><br>
-       <div class="project-content project-img-row">
-        <img src="/assets/tbd-project.png" />
-        <img src="/assets/tbd-project.png" />
-        <img src="/assets/tbd-project.png" /></div>
-        <br><br> <br><br>
         <mono-semibold>
           <div class="project-content">
             <br>Designing<br><br>
           </div>
         </mono-semibold>
-        abcdefghijklmnopqrstuvwxyz
+        I got really good at making shapes...but needed to calm down my dream of creating something practical..
         <br><br>
-        abcdefghijklmnopqrstuvwxyz
-        <br><br>
-        Learnings: 
+        What I did: 
         <br>
-        <br>+ abcdefghijklmnopqrstuvwxyz
-        <br>+ abcdefghijklmnopqrstuvwxyz
-        <br>+ abcdefghijklmnopqrstuvwxyz
-<br>
-        <br>- abcdefghijklmnopqrstuvwxyz
-        <br>- abcdefghijklmnopqrstuvwxyz
+        <br>1/ cylinder extrude (diameter around 100mm, based on the size of cardboard I had and how much I had)
+        <br>(2/) (I wanted to fillet the edges, but didn't want to risk making the shape "too complciated" or else my grasshopper formula wouldnt work...)
+        <br>3/ shell closed polysurface about 30% down (making sure its above 50% of the cylinder)
+        <br>4/ run grasshopper equation (make sure the slicers or the 'cuts' = the thickness required for the cardboard)
+        <br>5/ separate the sliced sets and 'smashed' each piece individually to get 2D pieces to print
         <br><br>
         
     <div class="project-content project-img-row">
-      <img src="/assets/tbd-project.png" />
-      <img src="/assets/tbd-project.png" />
-      <img src="/assets/tbd-project.png" /></div>
-      <br><br> <br><br>
+      <img src="/a2/Rhino-a2.png" />
+      <img src="/a2/grasshopper.png" />
+      </div>
+      <br><br>
+      Learnings: 
+        <br>
+        <br>- I hate Rhino x grasshopper (as a noob)
+        <br>- it was an emotional journey
+        
+
+        <div class="project-content project-img-row">
+          <img src="/a2/jim-carrey-jim-carrey-typing.gif" />
+          <img src="/a2/cries.gif" />
+          <img src="/a2/office-space.gif" />
+          </div>
+
+          <br>+ I have a lot of respect and appreciation for people who work in this space and use such complex tools
+        
+      <br><br><br> 
+
+
       <mono-semibold>
         <div class="project-content">
           <br>Printing<br><br>
         </div>
       </mono-semibold>
-
-      abcdefghijklmnopqrstuvwxyz
-      <br><br>What I did<br>
-          <br>abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz
-            <br> - abcdefghijklmnopqrstuvwxyz<br><br>
-            <br>
-      Learnings: 
-      <br>
-      <br>+ abcdefghijklmnopqrstuvwxyz
-      <br>+ abcdefghijklmnopqrstuvwxyz
-    
-<br>
-      <br>- abcdefghijklmnopqrstuvwxyz
-      <br>
-      <br><br>
-
+      The export from rhino to Illustrator was easier than I thought it would be. yay!
+      <br><br>What I did:<br>
+            <br> 1/ removed all the extra curves/lines that cut through the solid shape
+            <br> 2/ matched the artboard to my cardboard pieces
+            <br> (3/ if I had time, I would have ran some test pieces)
+            <br> 4/ laser away! this was the easy part
+            <br> 5/ assemble starting with the middle cross pieces<br><br>
       <div class="project-content project-img-row">
-        <img src="/assets/tbd-project.png" />
-        <img src="/assets/tbd-project.png" />
-        <img src="/assets/tbd-project.png" /></div>
-
-        <br><br><br><br>
-
-        abcdefghijklmnopqrstuvwxyz
+        <img src="/a2/print.png" />
+        <img src="/a2/print-export.png" />
+        <img src="/a2/printing.png" /></div>
+        
+        Learnings: 
+        <br>
+        <br>+ I needed more time...
+        <br>- I needed to consider where the slicers (or fitted cuts) would be, especially when they 
+        cut close to the edges of some of pieces. I had to just rip of some of the dangly thin strips that came out of some of my pieces
+        <br>- Labeling pieces would have helped make the assembly easier. 
         <br><br>
         <div class="project-content project-img-row">
-          <img src="/assets/tbd-project.png" /></div>
-          <br><br><br>
-          abcdefghijklmnopqrstuvwxyz
-          <br><br>
-          <div class="project-content project-img-row">
-            <img src="/assets/tbd-project.png" />
-            <img src="/assets/tbd-project.png" />
-           </div>
+          <img src="/a2/scrappies.png" />
+          <img src="/a2/uhoh.png" /></div>
 
           <br><br><br><br>
           <mono-semibold>
@@ -171,14 +175,12 @@
               <br>Final<br><br>
             </div>
           </mono-semibold>
-          <br> abcdefghijklmnopqrstuvwxyz
-            <br><br>
-
-            abcdefghijklmnopqrstuvwxyz
+          It was a journey. But I'm glad pushed through and made it to the end. 
           <br><br>
           <div class="project-content project-img-row">
-            <img src="/assets/tbd-project.png" />
-            <img src="/assets/tbd-project.png" />
+            <img src="/a2/final-top.png" />
+            <img src="/a2/final-side.png" />
+            <img src="/a2/final-bottom.png" />
            </div>
     </div>
   </mono-regular>
