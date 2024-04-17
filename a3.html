@@ -65,37 +65,79 @@
     <br><br>
     <mono-semibold>
       <div class="project-content">
-        <br>Testing with cubes and cubes<br><br>
+        <br>Testing with cubes<br><br>
       </div>
     </mono-semibold> 
       <mono-regular>
           <div class="project-content">
-            I had a rough start with printer settings
+            I had a rough start with printer settings, especially the bed adhesion. But figured it out towards the end!
+            <br><br>
+            1/ cube - 2cm, standard "low quality" settings 
+            <br><br>+ Print time: 6min
+            <br>+ Dimensions: 20.14mm H x 20.36mm W
+            <br>+ Second print had NO Brim adhesion issues!
+            <br><br>
+            2/ cube - 2cm, standard "standard quality" settings 
+            <br><br>+ Print time: 10min
+            <br>+ Dimensions: 20.02mm H x 20.14mm W
+            <br>- Brim adhesion issues (due to machine shaking and dirty print bed)
+            <br><br>
+            3/ cube - 2cm, standard "super quality" settings
+            <br><br>+ Print time: 1h 20min
+            <br>+ Dimensions: 19.89mm H x 20.08mm W
+            <br>+ Brim adhesion issues (due to machine shaking and dirty print bed)
+            <br><br>
+            4/ cube - 2 cm, concentric top and bottom layer, "standard quality" settings 
+            <br><br>+ Print time: ~20min
+            <br>+ Dimensions: 19.94 mm H x 20 mm W
+            <br>+ Initial layer was getting stuck, so I reduced the standard 20mm/s → 10mm/
+            <br>+ Increased the support from 10% → 20%
+            
             <br><br>
             <div class="project-content project-img-row">
               <img src="a3/cubes-top.png" />
               <img src="a3/cubes-front.png" />
               <img src="a3/cube-measure.png" />
+              <img src="a3/cube-fail.png"/>
+              <img src="a3/2cm-cube-concentric.png"/>
             </div>
-            <br>Inspo from: <a href="paste link here" class="link">
-              <mono-regular>abcdefghijklmnopqrstuvwxyz</mono-regular>
-            </a>
-            <br><br>abcdefghijklmnopqrstuvwxyz
+            <br><br>
+      
+            
       </div>
       <div class="project-content">
-       
-       
+        <mono-semibold>
+          <div class="project-content">
+            <br>Testing with tubes, and cylinders
+          </div>
+        </mono-semibold> 
+      
           <mono-regular>
               <div class="project-content">
-                abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz
+                <br>
+                5/ tube - 3cm in diameter x 3cm high with a single extrusion wall thickness 
+                <br><br>+ Print time: ~40min
+                <br>+ Dimensions: mm H x mm W, mm thickness
+                <br>+ Second print had NO Brim adhesion issues!
                 <br><br>
+                6/ tube - 3cm in diameter x 3cm high with a double extrusion wall thickness and random z-seam alignment 
+                <br><br>+ Print time: 10min
+                <br>+ Dimensions: mm H x mm W, mm thickness
+                <br>- Brim adhesion issues (due to machine shaking and dirty print bed)
+                <br><br>
+                7/ cylinder - 3cm in diameter with special mode "spiralize outer contour"
+                <br><br>+ Print time: 20min
+                <br>+ Dimensions: 30.10mm H x 29.70mm W, 0.5mm thickness
+                <br>+ Brim adhesion issues (due to machine shaking and dirty print bed)
+                <br><br>
+                8/ cylinder - 3cm in diameter printed on its side with supports on 
+                <br><br>+ Print time: ~20min
+                <br>+ Dimensions: mm H x mm W
+                
                 <div class="project-content project-img-row">
                   <img src="a3/tubes-front.png" />
                   <img src="a3/tubes-top.png" />
-                <br>Inspo from: <a href="paste link here" class="link">
-                  <mono-regular>abcdefghijklmnopqrstuvwxyz</mono-regular>
-                </a>
-                <br><br>abcdefghijklmnopqrstuvwxyz
+                </div>
           </div>
           <div class="project-content">
   
@@ -106,8 +148,14 @@
             <br>Prototyping<br><br>
           </div>
         </mono-semibold>
-        abcdefghijklmnopqrstuvwxyz
-       <br><br>
+        I went straight to modeling before sketching and that didn't work out as well because I didn't
+        really understand the scale of the object I was making and also I didn't get a chance to think
+        too deeply about tolorances. <br>
+
+        <br>FAIL! This is why the first clip I printed was too small and also had only a 1mm gap for 3.6mm cardboard.
+  
+
+       
        <div class="project-content project-img-row">
         <img src="a3/clip-fail.png" />
         <img src="a3/clip-fail2.png" />
@@ -118,24 +166,26 @@
             <br>Designing and printing<br><br>
           </div>
         </mono-semibold>
-        abcdefghijklmnopqrstuvwxyz
+        For my second attempt, I made sure to account for the thickness of the cardboard appropriately. 
+        Especially because it wasn't a 'flexible' clip but more of a slide in clip. So I needed to consider
+        have a tighter grip (teeth) to prevent sliding.
         <br><br>
-        abcdefghijklmnopqrstuvwxyz
-        <br><br>
-        Learnings: 
+        What I did: 
         <br>
-        <br>+ abcdefghijklmnopqrstuvwxyz
-        <br>+ abcdefghijklmnopqrstuvwxyz
-        <br>+ abcdefghijklmnopqrstuvwxyz
+        <br>+ designed teeth that allowed a 2mm gap for the 3.6mm cardboard
+        <br>+ create a thicker rounded external edge (rather than flat/thin) to prevent the teeth from bending outward
+        <br>+ snuck in a little fun by cutting out a small flower in the clip (since I was making it for my child)
+        <br>+ drew and cut some fun cardboard shapes for the clips to clip together :)
 <br>
-        <br>- abcdefghijklmnopqrstuvwxyz
-        <br>- abcdefghijklmnopqrstuvwxyz
+        <br>- the clip was a little snugg, but it was okay because cardboard has some give
+        <br>- if I the clip was connecting a solid material, I'd need to make the claws more flexible 
+        or if it's a fixed shape clip, I'd need to design a gap that is closer to the thickness of the material being clipped
         <br><br>
         
     <div class="project-content project-img-row">
       <img src="a3/rhino-clips.png" />
       <img src="a3/clips-final.png "/>
-      <img src="/assets/tbd-project.png" /></div>
+      <img src="a3/cardboard-pieces-rhino.png" /></div>
       <br><br> <br><br>
     
           <mono-semibold>

@@ -130,6 +130,8 @@ color:#6b00b7;
 
 .project img {
   width: 400px;
+  aspect-ratio: 16:9;
+  object-position: left top;
   object-fit: contain;
   object-position: left top;
 }
