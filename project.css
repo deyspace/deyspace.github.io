@@ -111,10 +111,6 @@ font-weight: bold;
 color:#6b00b7;
 }
 
-.project {
-  
-}
-
 .project .project-header {
   margin: 15px 50px;
 }
@@ -134,11 +130,16 @@ color:#6b00b7;
   object-position: left top;
   object-fit: contain;
   object-position: left top;
+  flex-basis: 500px;
+  /* flex-basis: 500px; */
+  /* flex-wrap: wrap; */
+  /* flex-grow: 1; */
 }
 
 .project-img-row {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
+  flex-wrap: wrap;
+  /* min-width: 500px; */
 }
