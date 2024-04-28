@@ -17,9 +17,10 @@ svg {
 
 body {
   font-family: "Noto sans mono", sans-serif;
-  line-height: 1.5;
+  line-height: 1.25;
   -webkit-font-smoothing: antialiased;
-  max-width: 2000px;
+  max-width: 1000
+px;
 }
 
 h1 {
@@ -35,20 +36,23 @@ h2 {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  line-height: 25px;
+  line-height: 1.25;
+  font-size: small;
 }
 
 .noto-sans mono-medium {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 500;
   font-style: normal;
+  font-size: small;
 }
 
 .noto-sans mono-semibold {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 600;
   font-style: normal;
-  line-height: 25px;
+  line-height: 1.25;
+  font-size: small;
 }
 
 .noto-sans mono-bold {
@@ -127,7 +131,7 @@ color:#6b00b7;
 }
 
 .project img {
-  width: 400px;
+  width: 250px;
   aspect-ratio: 16:9;
   object-position: left top;
   object-fit: contain;

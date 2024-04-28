@@ -16,7 +16,7 @@ svg {
 
 body {
   font-family: "Noto sans mono", sans-serif;
-  line-height: 1.5;
+  line-height: 1.25;
   -webkit-font-smoothing: antialiased;
   max-width: 2000px;
 }
@@ -33,15 +33,15 @@ h2 {
 .header {
   height: 100%;
   overflow-y: auto;
-  padding-left: 80px;
+  padding-left: 70px;
   padding-top: 40px;
-  padding-right: 80px;
+  padding-right: 70px;
   position: fixed;
-  width: 500px;
+  width: 375px;
 }
 
 .header img {
-  width: 300px;
+  width: 200px;
   aspect-ratio: 1;
   object-fit: contain;
   object-position: left center;
@@ -52,9 +52,9 @@ h2 {
 }
 
 .main {
-  background-color: #f4f0e3;
+  background-color: #f6f6f6;
   height: 100%;
-  margin-left: 500px;
+  margin-left: 375px;
   padding-left: 80px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -77,12 +77,12 @@ h2 {
 .assignment a:hover {
   color: rgb(125, 62, 142);
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
 }
 
 .assignment img {
-  width: 350px;
+  width: 300px;
   aspect-ratio: 16:9;
   object-fit: contain;
   object-position: left top;
@@ -103,6 +103,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   line-height: 20px;
+  font-size: small;
 }
 
 .noto-sans mono-medium {
@@ -115,6 +116,8 @@ h2 {
   font-family: "Noto Sans Mono", monospace;
   font-weight: 600;
   font-style: normal;
+  font-size: small;
+  line-height: 1.25;
 }
 
 .noto-sans mono-bold {
